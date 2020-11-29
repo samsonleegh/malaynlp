@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Malay Constituency Parsing</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="./static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./static/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="./static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="./static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Shuffle - v2.2.0
+  * Template URL: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+
+  <div style="width:800px; margin:0 auto; padding: 150px 0;">
+      <h1>Insert Malay phrase</h1>
+    <form action="/get_results" method="post">
+      <input class="form-control" name="sentence" type="text" >
+      <input type="submit">
+    </form>
+    <a href="http://www.surdeanu.info/mihai/teaching/ista555-fall13/readings/PennTreebankConstituents.html" target="_blank">constituent tags description</a>
+    <br>
+    <pre>{{ results }}</pre>
+    
+  </div>
+
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="./static/vendor/jquery/jquery.min.js"></script>
+  <script src="./static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./static/vendor/jquery.easing/jquery.easing.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="./static/js/main.js"></script>
+
+</body>
+
+</html>
